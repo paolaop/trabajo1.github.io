@@ -15,5 +15,16 @@ body {
 
 
 header {
-    background: yellow;
+    background: rgb(58, 114, 199)   ;
+    border: 1px solid black;
+}
+HR {
+    border: 1px solid black ;
+}
+nav {
+    text-align: center;
+    
+    margin: 0px auto;
+    background:rgb(58, 114, 199)  ;
+    border: 1px solid black;
 }
