@@ -1,28 +1,88 @@
-
-
 <!DOCTYPE html>  
     <html>  
     <head>  
     <meta charset="utf-8">  
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.1/chart.js"></script>
 
-    <link rel="stylesheet" href="estilos.css"/>
+    <link rel="stylesheet" href="estilos2.css"/>
     </head> 
     
-    
     <body>  
-    <h2>Un dado de 6 caras</h2>  
+    <h2>Actividad lanzamiento de dados</h2>  
     <p>Genera números aleatorios enteros entre 1 y 6.</p>  
-    <label></label>
-    <input type="number" class="start" id="start"><span class="sep"></span> <button onclick="myFunction()">Lanza el dado</button>  
-    <p id="salida"></p>  
+
+
+        <form name="datos">
+
+            Número de lanzamientos:<input type="text" name="n" size=3>
+            
+            <input type="button" value="Lanzar" OnClick="computar()"><HR>
+            <table>
+			  <tr>
+			    <td>NUMERO</td>
+				<td>FRECUENCIA</td>
+				<td>FREC.RELATIVA</td>
+			  </tr>
+			  
+			  <tr>
+			   <td>UNO</td>
+				<td><input type="text" ></td>
+				<td><input type="text" ></td>
+				<td><input type="text" ></td>
+				
+			  </tr>
+			  
+			  <tr>
+			    <td>DOS</td>
+				<td><input type="text" ></td>
+				<td><input type="text" ></td>
+				<td><input type="text" ></td>
+			  </tr>
+			  
+			  <tr>
+			    <td>TRES</td>
+				<td><input type="text"></td>
+				<td><input type="text"></td>
+				<td><input type="text" ></td>
+			  </tr>
+			  
+			  <tr>
+			    <td>CUATRO</td>
+				<td><input type="text"</td>
+				<td><input type="text"</td>
+				<td><input type="text" ></td>
+			  </tr>
+			  
+			  <tr>
+			    <td>CINCO</td>
+				<td><input type="text"></td>
+				<td><input type="text"></td>
+				<td><input type="text" ></td>
+			  </tr>
+			  
+			  <tr>
+			    <td>SEIS</td>
+				<td><input type="text"></td>
+				<td><input type="text"></td>
+				<td><input type="text" ></td>
+			  </tr>
+			  
+			
+			<table/>
+                   
+    </form>
+
+
+	
     <header>
-    <h1>Link de presentacion </h1>
+	
+    <h1>Conceptos</h1>
 
     </header>
     <nav>
         <ul>
     <a href="index2.html">
-    Ver
+    Click Aqui
     </a>
         </ul>
     </nav>
@@ -35,8 +95,8 @@
     
     </section>
     </div>
-
-
-    <script src="main.js"></script>  
+    <script src="main2.js"></script>  
+	<script	
 </body>  
 </html>
+
