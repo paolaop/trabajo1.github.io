@@ -1,10 +1,18 @@
 body {
-
-    background-color:aquamarine;
-    font-family: Arial, Helvetica, sans-serif;
     
+    text-align: center;
+    background-color: rgb(20, 25, 27);
+    font-family: Arial, Helvetica, sans-serif;
+    border: 3px solid rgb(86, 233, 225) ;
 
 }
+#container {
+    text-align: center;
+    width: 60%;
+    margin: 70px auto;
+    border: 3px solid rgb(86, 233, 225);
+}
+
 
 header {
     background: yellow;
